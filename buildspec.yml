@@ -3,11 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Preparing CodeDeploy artifact"
+      - echo "Build completed"
 
 artifacts:
   files:
-    - app.py
-    - requirements.txt
-    - appspec.yml
-    - scripts/**/*
+    - '**/*'
